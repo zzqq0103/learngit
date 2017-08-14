@@ -1,22 +1,48 @@
 #### 该仓库是用作个人练习`Git` 相关的操作之用。
 
 比如对以下操作的练习：
+```
+# init repository
 
-> 1 git init
+  git init
 
-> 2 git add
+# clone remote repository
 
-> 3 git commit
+    git clone <repo address use SSH> or <repo address use HTTP portocol>
 
-> 4 git remote
+# add changes or all changes
 
-> 5 git status
+  git add  <file>/ git add .
 
-> 6 git diff
+# commit store space files
 
-> 7 git fetch  git merge git pull git push
+  git commit -m "commit info"
 
-> 8 git log  git relog
+# connect remote repository(Github or Gitee)
 
-> 9 git checkout 、 git branch 、 git reset
+  git remote
+
+# check all repository info
+
+  git status
+
+# compare repository files' status with work space status
+
+  git diff
+
+# pull or fetch repository updated files from repo
+
+  git fetch  git merge git pull git push
+
+# look at the log 
+
+  git log  git relog
+
+# unstaged files operation
+
+  1、git checkout -- <file>
+  2、git reset HEAD <file>
+  3、git reset --hard <commitId>/<HEAD~>/<HEAD^5>
+
+```
 
